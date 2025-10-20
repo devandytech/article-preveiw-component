@@ -1,1 +1,142 @@
+/* Stylesheets for both mobile and the desktop design.
+Started On: Oct 13 2025;
+Author: Oseremen Godstime (Andy) 
+Active state: hsl(217, 19%, 35%);
+share icon active state: hsl(214, 17%, 51%)
+*/
 
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+/*media viewport for mobile (media queries)*/
+@media only screen and (max-width: 600px) {
+  body {
+    width: 375px;
+    margin: auto;
+    background-color: hsl(210, 46%, 95%);
+  }
+  .container {
+    width: 92%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .drawer-img {
+    background-image: url("drawers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto 50%;
+    width: 100%;
+    height: 18em;
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .sub-wrapper {
+    width: 100%;
+    padding-top: 1.5em;
+    padding-top: 1.5em;
+    color: hsl(217, 19%, 35%);
+  }
+  h1 {
+    font-size: 1.2em;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+  h1, p.description {
+    padding: 0;
+    margin-left: 35px;
+    margin-right: 35px;
+    line-height: 1.5em;
+  }
+  .active-state {
+    border: 0.5px solid transparent;
+    width: 100%;
+    padding: 0;
+    margin: 2em auto 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .child-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 35px 1.5em 35px;
+  }
+  .child-div {
+    //color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 35px;
+  }
+  #second-img {
+    width: 15%;
+    height: 15%;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+  }
+  p.child1, p.child2 {
+    padding: 0;
+  }
+  p.child1 {
+    margin: 1px 0;
+  }
+  p.child2 {
+    margin: 2px 0;
+  }
+  span {
+    font-weight: bold;
+  }
+  .share-icon {
+    background-image: url("icon-share.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px;
+    background-color: hsl(210, 46%, 95%);
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 50%;
+    float: right;
+  }
+  /* JavaScript functional active status */
+  .active {
+    width: 100%;
+    background: hsl(217, 19%, 35%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .remove {
+    display: none;
+  }
+  .pseudo {
+    height: ;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 0em 35px 1.5em 35px;
+  }
+  .new-text {
+    color: #fff;
+    border: 1px solid;
+  }
+  .new-div {
+    border: 1px solid;
+  }
+  .new-share-icon {
+    border: 1px solid;
+  }
+    }
