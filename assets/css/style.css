@@ -39,7 +39,7 @@ body {
     border-radius: 10px;
   }
   .drawer-img {
-    background-image: url("images/drawers.jpg");
+    background-image: url("/images/drawers.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: auto 50%;
