@@ -1,14 +1,21 @@
 /* Stylesheets for both mobile and the desktop design.
-Started On: Oct 13 2025;
 Author: Oseremen Godstime (Andy) 
-Active state: hsl(217, 19%, 35%);
-share icon active state: hsl(214, 17%, 51%)
 */
 
 * {
   margin: 0;
   padding: 0;
-  font-size: 13px;
+  //font-size: 13px;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: bold;
+  background-color: hsl(210, 46%, 95%);
+}
+.container {
+  //background-color: #fff;
 }
 .attribution { 
   font-size: 11px; 
@@ -22,6 +29,7 @@ share icon active state: hsl(214, 17%, 51%)
   body {
     width: 375px;
     margin: auto;
+    font-size: 13px;
     background-color: hsl(210, 46%, 95%);
   }
   .container {
@@ -44,13 +52,13 @@ share icon active state: hsl(214, 17%, 51%)
   }
   .sub-wrapper {
     width: 100%;
-    padding-top: 1.5em;
-    padding-top: 1.5em;
+    padding-top: 3em;
     color: hsl(217, 19%, 35%);
   }
   h1 {
-    font-size: 1.2em;
-    margin-top: 35px;
+    font-size: 1.15em;
+    font-weight: 700;
+    margin-top: 0;
     margin-bottom: 15px;
   }
   h1, p.description {
@@ -59,13 +67,8 @@ share icon active state: hsl(214, 17%, 51%)
     margin-right: 35px;
     line-height: 1.5em;
   }
-  .active-state {
-    border: 0.5px solid transparent;
-    width: 100%;
-    padding: 0;
-    margin: 2em auto 0 auto;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+  p.description {
+    font-weight: 500;
   }
   .child-wrapper {
     display: flex;
@@ -73,7 +76,6 @@ share icon active state: hsl(214, 17%, 51%)
     margin: 1em 35px 1.5em 35px;
   }
   .child-div {
-    //color: #fff;
     display: flex;
     flex-direction: column;
     margin-left: 0;
@@ -91,6 +93,7 @@ share icon active state: hsl(214, 17%, 51%)
   }
   p.child1 {
     margin: 1px 0;
+    font-weight: 700;
   }
   p.child2 {
     margin: 2px 0;
@@ -102,28 +105,35 @@ share icon active state: hsl(214, 17%, 51%)
     background-image: url("icon-share.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 18px;
+    background-size: 15px;
     background-color: hsl(210, 46%, 95%);
     width: 15px;
     height: 15px;
     padding: 10px;
-    margin-top: 8px;
+    margin: auto 0;
     border-radius: 50%;
     float: right;
   }
   /* JavaScript functional active status */
+  .active-state {
+    border: 0.5px solid transparent;
+    width: 100%;
+    padding: 0;
+    margin: 2em auto 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
   .active {
     width: 100%;
+    padding-top: 1.5em;
     background: hsl(217, 19%, 35%);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
-  .remove {
+  .removeElement {
     display: none;
   }
-  .pseudo {
-    height: ;
-    border: 1px solid #fff;
+  .pseudo-style-align {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -131,12 +141,144 @@ share icon active state: hsl(214, 17%, 51%)
   }
   .new-text {
     color: #fff;
-    border: 1px solid;
+    font-size: 0.9em;
+    margin: auto 0;
+    text-transform: uppercase;
+    letter-spacing: 0.55em;
   }
-  .new-div {
-    border: 1px solid;
+  .el-icon-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px auto 0;
   }
-  .new-share-icon {
+  .fb-icon, .twitter-icon, .pinterest-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px;
+    width: 35px;
+    height: 35px;
+    margin: auto;
+  }
+  .fb-icon {
+    background-image: url("icon-facebook.svg");
+    padding-right: 10px;
+  } 
+  .twitter-icon {
+    background-image: url("icon-twitter.svg");
+  } 
+  .pinterest-icon {
+    background-image: url("icon-pinterest.svg");
+    padding-left: 10px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  body {
     border: 1px solid;
+    width: 1440px;
+    font-size: 13px;
+    //font-weight: 700;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 50px auto;
+  }
+  div.drawer-img {
+    background-image: url("drawers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto 50%;
+    width: 35%;
+    //height: 18em;
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .sub-wrapper {
+    width: 40%;
+    color: hsl(217, 19%, 35%);
+    background-color: #fff;
+    padding: 4.3em 4.5em 3em 4.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  h1 {
+    //font-size: 13px;
+    //border: 1px solid;
+  }
+  h1, p.description {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+  }
+  p.description {
+    //border: 1px solid;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 2.5em auto 3.5em auto;
+  }
+  .child-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    //border: 1px solid;
+  }
+  #second-img {
+    width: 13%;
+    height: 10%;
+    padding: 0;
+    margin: 0 1em 0 0;
+    border-radius: 50%;
+  }
+  .child-div {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: auto 17em auto 0em;
+  }
+  p.child1, p.child2 {
+    padding: 0;
+  }
+  p.child1 {
+    margin: 3px 0;
+    font-weight: 700;
+  }
+  p.child2 {
+    margin: 5px 0;
+  }
+  span {
+    font-weight: bold;
+  }
+  .share-icon {
+    background-image: url("icon-share.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px;
+    background-color: hsl(210, 46%, 95%);
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    margin: auto 0;
+    border-radius: 50%;
+    float: right;
+  }
+  // JavaScript functionality for desktop 
+  .desktop-share-icon {
+    background-image: url("icon-share.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px;
+    background-color: hsl(210, 46%, 95%);
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    margin: auto 0;
+    border-radius: 50%;
+    float: right;
   }
     }
