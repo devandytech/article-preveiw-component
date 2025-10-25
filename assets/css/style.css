@@ -39,7 +39,7 @@ body {
     border-radius: 10px;
   }
   .drawer-img {
-    background-image: url("drawers.jpg");
+    background-image: url("assets/images/drawers.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: auto 50%;
@@ -102,7 +102,7 @@ body {
     font-weight: bold;
   }
   .share-icon {
-    background-image: url("icon-share.svg");
+    background-image: url("assets/images/icon-share.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 15px;
@@ -160,14 +160,14 @@ body {
     margin: auto;
   }
   .fb-icon {
-    background-image: url("icon-facebook.svg");
+    background-image: url("assets/images/icon-facebook.svg");
     padding-right: 10px;
   } 
   .twitter-icon {
-    background-image: url("icon-twitter.svg");
+    background-image: url("assets/images/icon-twitter.svg");
   } 
   .pinterest-icon {
-    background-image: url("icon-pinterest.svg");
+    background-image: url("assets/images/icon-pinterest.svg");
     padding-left: 10px;
   }
 }
@@ -185,7 +185,7 @@ body {
     margin: 50px auto;
   }
   div.drawer-img {
-    background-image: url("drawers.jpg");
+    background-image: url("assets/images/drawers.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: auto 50%;
@@ -255,7 +255,7 @@ body {
     font-weight: bold;
   }
   .share-icon {
-    background-image: url("icon-share.svg");
+    background-image: url("assets/images/icon-share.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 18px;
@@ -269,7 +269,7 @@ body {
   }
   // JavaScript functionality for desktop 
   .desktop-share-icon {
-    background-image: url("icon-share.svg");
+    background-image: url("assets/images/icon-share.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 18px;
