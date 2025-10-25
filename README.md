@@ -1,4 +1,4 @@
-# article-preveiw-component
+
 
 # Frontend Mentor - Article preview component solution
 
