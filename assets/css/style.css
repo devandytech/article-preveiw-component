@@ -46,7 +46,7 @@ span {
   font-weight: bold;
 }
 .share-icon {
-  background-image: url("icon-share.svg");
+  background-image: url("../images/icon-share.svg");
   background-color: hsl(210, 46%, 95%);
   background-repeat: no-repeat;
   background-position: center;
@@ -56,7 +56,7 @@ span {
 }
 /* interactive share icon state */
 .share-icon-active-desktop, .share-icon-active {
-  background-image: url("active-share.svg");
+  background-image: url("../images/active-share.svg");
  }
 .new-text, .share-text {
   color: #fff;
@@ -83,7 +83,7 @@ span {
     border-radius: 10px;
   }
   .drawer-img {
-    background-image: url("drawers.jpg");
+    background-image: url("../images/drawers.jpg");
     width: 100%;
     height: 18em;
     border-top-left-radius: 10px;
@@ -178,14 +178,14 @@ span {
     margin: auto;
   }
   .fb-icon {
-    background-image: url("icon-facebook.svg");
+    background-image: url("../images/icon-facebook.svg");
     padding-right: 10px;
   } 
   .twitter-icon {
-    background-image: url("icon-twitter.svg");
+    background-image: url("../images/icon-twitter.svg");
   } 
   .pinterest-icon {
-    background-image: url("icon-pinterest.svg"); 
+    background-image: url("../images/icon-pinterest.svg"); 
     padding-left: 10px;
   }
 }
@@ -201,7 +201,7 @@ span {
   }
   div.drawer-img {
     width: 35%;
-    background-image: url("drawers.jpg");
+    background-image: url("../images/drawers.jpg");
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
@@ -249,7 +249,7 @@ span {
   }
   /* JavaScript functionality for desktop */ 
   .desktop-share-icon {
-    background-image: url("icon-share.svg");
+    background-image: url("../images/icon-share.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 18px;
@@ -283,7 +283,7 @@ span {
     letter-spacing:  0.6em;
   }
   .desktop-fb-icon {
-    background-image: url("icon-facebook.svg");
+    background-image: url("../images/icon-facebook.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 32px;
@@ -291,7 +291,7 @@ span {
     margin: auto 1.5em auto 1.8em;
   }
   .desktop-twitter-icon {
-    background-image: url("icon-twitter.svg");
+    background-image: url("../images/icon-twitter.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 32px;
@@ -299,7 +299,7 @@ span {
     margin: auto 0;
   }
   .desktop-pinterest-icon {
-    background-image: url("icon-pinterest.svg");
+    background-image: url("../images/icon-pinterest.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 32px;
