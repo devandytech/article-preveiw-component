@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://github.com/devandytech/article-preveiw-component/)
+- Live Site URL: [live site URL here](https://article-preveiw-component.vercel.app/)
 
 ## My process
 
@@ -59,7 +59,7 @@ I thought at the beginning that this project was going to be a walk through for 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@devandytech](https://www.frontendmentor.io/profile/devandytech)
 - Twitter - [@devandytech](https://www.twitter.com/devandytech)
 
 ## Acknowledgments
