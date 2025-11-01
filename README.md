@@ -1,5 +1,3 @@
-
-
 # Frontend Mentor - Article preview component solution
 
 This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -31,15 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](assets/images/screenshot.jpg)
 
 ### Links
 
@@ -47,6 +37,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+
+Everything(all element) are treated as box containers for easy styling and alignment.
 
 ### Built with
 
@@ -58,7 +50,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-I was going to use the JavaScript toggle to manipulate elements on when the share is been clicked initially, but encounter some errors and i decided to use and adapted another approach by using the javascript classlist(add and remove) and conditional statement(if...else) for manipulation.
+I was going to use the JavaScript toggle to manipulate elements on when the share is been clicked initially, but encounter some errors and i decided to use and adapte another approach by using the javascript classlist(add and remove) and conditional statement(if...else) for manipulation.
 
 ### Continued development
 
@@ -67,14 +59,12 @@ I thought at the beginning that this project was going to be a walk through for 
 
 ## Author
 
-- Website - [Add your](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@devandytech](https://www.twitter.com/devandytech)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I did figure everything out myself eventually though, but i have decided to experiment with some library and resources used. For example, for DOM media query which was almost making havoc and confusion for me i found a JavaScript library.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Link - [enquire.js](https://wicky.nillia.ms/enquire.js/)
+
