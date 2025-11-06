@@ -222,7 +222,7 @@ span {
   p.description {
     font-size: 1.2em;
     padding: 0;
-    margin: 2.5em auto 3.5em auto;
+    margin: 2em auto 2em auto;
   }
   .child-wrapper {
     margin: 0;
@@ -269,12 +269,22 @@ span {
     flex-direction: row;
     width: 32%;
     position: absolute;
-    margin-top: 173px;
+    margin-top: 164px;
     margin-left: 315px;
     padding: 1.5em;
     z-index: 1;
     border-radius: 10px;
     background: hsl(217, 19%, 35%);
+  }
+  .activeContainer::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  transform: translateX(-50);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid hsl(217, 19%, 35%);
   }
   .share-text {
     margin: auto 0 auto 1.5em;
