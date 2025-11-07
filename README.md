@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/devandytech/article-preveiw-component/)
-- Live Site URL: [live site URL here](https://https://devandytech.github.io/article-preveiw-component/)
+- Live Site URL: [live site URL here](https://devandytech.github.io/article-preveiw-component/)
 
 ## My process
 
