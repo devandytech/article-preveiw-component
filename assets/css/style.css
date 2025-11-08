@@ -190,7 +190,7 @@ span {
     padding-left: 10px;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
   body {
     width: 1440px;
   }
@@ -270,8 +270,9 @@ span {
     flex-direction: row;
     width: 32%;
     position: absolute;
-    margin-top: 164px;
-    margin-left: 315px;
+    position: absolute;
+    top: 20.8em;
+    left: 77em;
     padding: 1.5em;
     z-index: 1;
     border-radius: 10px;
@@ -282,7 +283,7 @@ span {
   position: absolute;
   bottom: -9px;
   left: 50%;
-  transform: translateX(-50);
+  transform: translateX(-80);
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid hsl(217, 19%, 35%);
