@@ -64,7 +64,7 @@ I thought at the beginning that this project was going to be a walk through for 
 
 ## Acknowledgments
 
-I did figure everything out myself eventually though, but i have decided to experiment with some library and resources used. For example, for DOM media query which was almost making havoc and confusion for me i found a JavaScript library.
+I did figure everything out myself eventually though, but i have decided to experiment with some library and resources used. For example, for DOM media query which was almost making havoc and confusion for me i found a useful JavaScript library.
 
 - Link - [enquire.js](https://wicky.nillia.ms/enquire.js/)
 
